@@ -1,1 +1,10 @@
-[]
+[
+	{
+		"topic":"Introduction to the course, Git and Github",
+		"date":"2022-02-26",
+		"time":{
+			"hour":"16",
+			"minute":"00"
+		}
+	}
+]
