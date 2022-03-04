@@ -7,5 +7,13 @@
 			"minute":"00"
 		},
 		"link":"https://drive.google.com/file/d/12Jj0HTXfyTSTQfaEXvbMTwAO3pzb89vJ/view?usp=sharing"
+	},
+	{
+		"topic":"Basics of Python programming (1)",
+		"date":"2022-03-05",
+		"time":{
+			"hour":"16",
+			"minute":"00"
+		}
 	}
 ]
