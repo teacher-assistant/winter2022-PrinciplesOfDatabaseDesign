@@ -1,0 +1,29 @@
+[
+	{
+		"topic":"Introduction to the course, Git and Github",
+		"date":"2022-02-26",
+		"time":{
+			"hour":"16",
+			"minute":"00"
+		},
+		"link":"https://s23.picofile.com/file/8448053418/firstSession2022_02_26.rar.html"
+	},
+	{
+		"topic":"Basics of Python programming",
+		"date":"2022-03-05",
+		"time":{
+			"hour":"16",
+			"minute":"00"
+		},
+		"link":"https://s23.picofile.com/file/8448055884/secondSession_2022_03_05.rar.html"
+	},
+	{
+		"topic":"Functions & Classes in Python",
+		"date":"2022-03-12",
+		"time":{
+			"hour":"16",
+			"minute":"00"
+		},
+		"link":"https://s23.picofile.com/file/8448215292/thirdSession_2022_03_12.rar.html"
+	}
+]

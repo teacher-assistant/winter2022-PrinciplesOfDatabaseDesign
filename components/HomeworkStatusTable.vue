@@ -1,0 +1,88 @@
+<template>
+    <div class="alert alert-dark">
+    	<div v-if="students.length">
+	    	<h3>
+	    		Below table is updated <span href="#" class="alert-link">a few days after deadlines</span>
+	    	</h3>
+			<table class="table table-primary table-striped">
+			  <thead>
+			    <tr>
+			      	<th scope="col">#</th>
+			      	<th scope="col">Student Number</th>
+			      	<th scope="col">
+			      		<button type="button" class="btn btn-outline-dark">
+							<span>
+								HW1
+							</span>
+					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW1.pdf">
+					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+				   			</a>
+			      		</button>
+			  		</th>
+			      	<th scope="col">
+			      		<button type="button" class="btn btn-outline-dark">
+							<span>
+								HW2
+							</span>
+					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW2.pdf">
+					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+				   			</a>
+			      		</button>
+			  		</th>
+			      	<th scope="col">
+			      		<button type="button" class="btn btn-outline-dark">
+							<span>
+								HW3
+							</span>
+					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW3.pdf">
+					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+				   			</a>
+			      		</button>
+			  		</th>
+					<th scope="col">
+			      		<button type="button" class="btn btn-outline-dark">
+							<span>
+								HW4(SQL)
+							</span>
+					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW4(SQL).pdf">
+					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+				   			</a>
+			      		</button>
+			  		</th>		  		
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr v-for="(student, index) in students">
+			      <th scope="row">{{ index+1 }}</th>
+			      <td>{{ student.id }}</td> 
+			      <td>{{ student.HW1 }}</td>
+			      <td>{{ student.HW2 }}</td>
+			      <td>{{ student.HW3 }}</td>
+			      <td>{{ student.HW4 }}</td>
+			    </tr>
+			  </tbody>
+			</table>
+    	</div>
+		<div class="d-flex justify-content-center" v-else>
+			<h2 class="alert-link">
+				No homework has been collected yet !
+			</h2>
+		</div>
+    </div>
+</template>
+
+<script>
+export default {
+	data(){
+		return{
+			students:[]
+		}
+	},
+  	mounted() {
+	    this.$nextTick(()=>{
+		  	this.$axios.$get('https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks.json')
+	        .then(response=>this.students=response)
+	    })
+  	}
+}
+</script>
