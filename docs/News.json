@@ -1,5 +1,9 @@
 [
 	{
+		"body":"Below links can provide more information about how to create a connection to PostgreSQL in Python:<br><ul><li><a href='https://www.postgresqltutorial.com/postgresql-python/connect/'>PostgreSQL Python: Connect To PostgreSQL Database Server</a></li><li><a href='https://www.psycopg.org/docs/usage.html'>Psycopg documentation</a></li></ul>",
+		"date":"2022-04-09"
+	},
+	{
 		"body":"You can access github cheat sheet with this <a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_nZC0gp72AhW9R_EDHbPMC_AQFnoECAoQAQ&url=https%3A%2F%2Feducation.github.com%2Fgit-cheat-sheet-education.pdf&usg=AOvVaw2D3W2R0fwoOBi8YrhZYLFJ'>link</a>.",
 		"date":"2022-02-26"
 	},
