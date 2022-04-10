@@ -25,5 +25,14 @@
 			"minute":"00"
 		},
 		"link":"https://s23.picofile.com/file/8448215292/thirdSession_2022_03_12.rar.html"
+	},
+	{
+		"topic":"Connect Python to PostgreSQL",
+		"date":"2022-04-09",
+		"time":{
+			"hour":"16",
+			"minute":"00"
+		},
+		"link":"https://s22.picofile.com/file/8449008550/fourthSession2022_04_09.rar.html"
 	}
 ]
