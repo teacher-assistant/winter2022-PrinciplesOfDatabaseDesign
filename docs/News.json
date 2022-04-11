@@ -1,5 +1,9 @@
 [
 	{
+		"body":"You can access to a <a href='https://dbeaver.io'>DBever</a> short introduction video with this<a href='https://s22.picofile.com/file/8449044776/DBever_Introduction2022_04_11.rar.html'>link</a>.",
+		"date":"2022-04-11"
+	},
+	{
 		"body":"Below links can provide more information about how to create a connection to PostgreSQL in Python:<br><ul><li><a href='https://www.postgresqltutorial.com/postgresql-python/connect/'>PostgreSQL Python: Connect To PostgreSQL Database Server</a></li><li><a href='https://www.psycopg.org/docs/usage.html'>Psycopg documentation</a></li></ul>",
 		"date":"2022-04-09"
 	},
