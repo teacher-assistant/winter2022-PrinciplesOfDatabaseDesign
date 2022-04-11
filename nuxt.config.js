@@ -22,6 +22,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
+      {rel: 'icon', type: 'image/x-icon', href: '/winter2022-PrinciplesOfDatabaseDesign/icon.svg'}
     ]
   },
 
