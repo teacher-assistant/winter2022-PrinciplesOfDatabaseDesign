@@ -48,7 +48,17 @@
 					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
 				   			</a>
 			      		</button>
-			  		</th>		  		
+			  		</th>	
+					<th scope="col">
+			      		<button type="button" class="btn btn-outline-dark">
+							<span>
+								HW5(SQL)
+							</span>
+					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW5(SQL).pdf">
+					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+				   			</a>
+			      		</button>
+			  		</th>	  		
 			    </tr>
 			  </thead>
 			  <tbody>
@@ -59,6 +69,7 @@
 			      <td>{{ student.HW2 }}</td>
 			      <td>{{ student.HW3 }}</td>
 			      <td>{{ student.HW4 }}</td>
+			      <td>{{ student.HW5 }}</td>
 			    </tr>
 			  </tbody>
 			</table>
