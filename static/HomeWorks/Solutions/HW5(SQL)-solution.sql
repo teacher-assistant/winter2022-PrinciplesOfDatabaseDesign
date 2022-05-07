@@ -128,9 +128,10 @@ FROM orders
 WHERE (shippeddate IS NULL) OR (shippeddate - orderdate > 30);
 
 --Q2
-SELECT products.productCode AS "Product Code", products.productName AS "Product Name", orderdetails.quantityOrdered As "Count of ordered", orderdetails.priceEach AS "Sell Product", products.buyPrice AS "Buy Price", (orderdetails.quantityOrdered*orderdetails.priceEach) AS "Sell Amount", (orderdetails.quantityOrdered*products.buyPrice) AS "Buy Amount"
+SELECT products.productCode AS "Product Code", products.productName AS "Product Name", SUM(orderdetails.quantityOrdered) As "Count of ordered", AVG(orderdetails.priceEach) AS "Sell Product", products.buyPrice AS "Buy Price", SUM(orderdetails.quantityOrdered*orderdetails.priceEach) AS "Sell Amount", SUM(orderdetails.quantityOrdered*products.buyPrice) AS "Buy Amount"
 FROM (orders INNER JOIN orderdetails ON orders.orderNumber=orderdetails.orderNumber) INNER JOIN products ON products.productCode=orderdetails.productCode
-WHERE date_part('month', orders.orderDate)=01;
+WHERE date_part('month', orders.orderDate)=01
+GROUP BY products.productcode;
 
 --Q3
 SELECT orders.orderdate AS "Date", SUM(orderdetails.priceeach*orderdetails.quantityordered) AS "Sum of Sell", SUM(orderdetails.quantityordered) AS "Count of Sell", COUNT(DISTINCT(orders.ordernumber)) AS "Count of orders"
