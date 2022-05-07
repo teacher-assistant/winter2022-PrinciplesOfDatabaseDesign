@@ -147,17 +147,17 @@ SELECT
 		COUNT(orders.ordernumber) AS "Count of Orders"
 FROM (employees LEFT JOIN customers ON employees.employeenumber=customers.salesrepemployeenumber) LEFT JOIN orders ON orders.customernumber=customers.customernumber
 WHERE employees.officecode='Vanc'
-GROUP BY employees.employeenumber;
+GROUP BY employees.employeenumber, employees.firstname, employees.lastname;
 
 --Q5
-SELECT customers.country AS "Country", SUM(orderdetails.quantityordered*orderdetails.priceeach) AS "Sum of Orders Amount"
+SELECT customers.country AS "Country", SUM(orderdetails.quantityordered*orderdetails.priceeach) AS "Sum of Orders Amount", COUNT(customers.customernumber)
 FROM (customers LEFT JOIN orders ON customers.customernumber=orders.customernumber) LEFT JOIN orderdetails ON orders.ordernumber=orderdetails.ordernumber
 GROUP BY customers.country
 ORDER BY COUNT(customers.customernumber) DESC;
 
 --Q6
 SELECT orders.ordernumber AS "Order Code", sum(orderdetails.priceeach*orderdetails.quantityordered) AS "Sum of Sell", (SELECT customers.customername FROM customers WHERE customers.customernumber=orders.customernumber), (SELECT customers.customernumber FROM customers WHERE customers.customernumber=orders.customernumber)
-FROM (customers INNER JOIN orders ON customers.customernumber=orders.customernumber) RIGHT JOIN orderdetails ON orders.ordernumber=orderdetails.ordernumber
+FROM orders RIGHT JOIN orderdetails ON orders.ordernumber=orderdetails.ordernumber
 WHERE date_part('year', orders.orderdate)=2022
 GROUP BY orders.ordernumber
 ORDER BY sum(orderdetails.priceeach*orderdetails.quantityordered) DESC
