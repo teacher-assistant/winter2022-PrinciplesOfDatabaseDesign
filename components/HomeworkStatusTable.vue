@@ -2,7 +2,7 @@
     <div class="alert alert-dark">
     	<div v-if="students.length">
 	    	<h3>
-	    		Below table is updated <span href="#" class="alert-link">a few days after deadlines</span>
+	    		Below table is updated <span href="#" class="alert-link">a few days after each deadline</span>
 	    	</h3>
 			<table class="table table-primary table-striped">
 			  <thead>
@@ -68,7 +68,17 @@
 					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
 				   			</a>
 			      		</button>
-			  		</th>  		
+			  		</th>
+					<th scope="col">
+			      		<button type="button" class="btn btn-outline-dark">
+							<span>
+								HW7(ERD)
+							</span>
+					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW7(ERD).pdf">
+					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+				   			</a>
+			      		</button>
+			  		</th>
 			    </tr>
 			  </thead>
 			  <tbody>
@@ -81,13 +91,14 @@
 			      <td>{{ student.HW4 }}</td>
 			      <td>{{ student.HW5 }}</td>
 			      <td>{{ student.HW6 }}</td>
+			      <td>{{ student.HW7 }}</td>
 			    </tr>
 			  </tbody>
 			</table>
     	</div>
 		<div class="d-flex justify-content-center" v-else>
 			<h2 class="alert-link">
-				No homework has been collected yet !
+				No homework has been collected yet!
 			</h2>
 		</div>
     </div>
