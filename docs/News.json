@@ -1,11 +1,19 @@
 [
 	{
+		"body":"A pretty slide about API could be found <a href='https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/Request&API.pptx'>here</a>.",
+		"date":"2022-05-21"
+	},
+	{
+		"body":"A pretty document for the Request Module could be found <a href='https://docs.python-requests.org/en/latest/'>here</a>.",
+		"date":"2022-05-21"
+	},
+	{
 		"body":"A pretty document for Tkinter could be found <a href='https://www.pythontutorial.net/tkinter/'>here</a>.",
-		"date":"2022-04-09"
+		"date":"2022-05-14"
 	},
 	{
 		"body":"The solution for the <a href='https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW5(SQL).pdf'>HW5</a> could be found <a href='https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/Solutions/HW5(SQL)-solution.sql'>here</a>.",
-		"date":"2022-04-23"
+		"date":"2022-04-30"
 	},
 	{
 		"body":"The solution for the <a href='https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW4(SQL).pdf'>HW4</a> could be found <a href='https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/Solutions/HW4(SQL)-solution.sql'>here</a>.",
