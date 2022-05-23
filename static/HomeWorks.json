@@ -32,7 +32,8 @@
 		"HW2":"95%",
 		"HW3":"Hasn't been sent",
 		"HW4":"94.29%",
-		"HW5":"96.5%"
+		"HW5":"96.5%",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463133",
@@ -49,7 +50,8 @@
 		"HW2":"100%",
 		"HW3":"100%",
 		"HW4":"84.29%",
-		"HW5":"93.67%"
+		"HW5":"93.67%",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463184",
@@ -93,7 +95,8 @@
 		"HW2":"100%",
 		"HW3":"100%",
 		"HW4":"0%",
-		"HW5":"Hasn't been sent"
+		"HW5":"Hasn't been sent",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463147",
@@ -119,7 +122,8 @@
 		"HW2":"90%",
 		"HW3":"100%",
 		"HW4":"Hasn't been sent",
-		"HW5":"Hasn't been sent"
+		"HW5":"Hasn't been sent",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463136",
@@ -127,7 +131,8 @@
 		"HW2":"100%",
 		"HW3":"Hasn't been sent",
 		"HW4":"Hasn't been sent",
-		"HW5":"Hasn't been sent"
+		"HW5":"Hasn't been sent",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463168",
@@ -153,7 +158,8 @@
 		"HW2":"90%",
 		"HW3":"Hasn't been sent",
 		"HW4":"Hasn't been sent",
-		"HW5":"Hasn't been sent"
+		"HW5":"Hasn't been sent",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463156",
@@ -242,7 +248,8 @@
 		"HW2":"100%",
 		"HW3":"100%",
 		"HW4":"Hasn't been sent",
-		"HW5":"88.34%"
+		"HW5":"88.34%",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"97463154",
@@ -250,7 +257,8 @@
 		"HW2":"90%",
 		"HW3":"Hasn't been sent",
 		"HW4":"35.72%",
-		"HW5":"Hasn't been sent"
+		"HW5":"Hasn't been sent",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463107",
@@ -276,7 +284,8 @@
 		"HW2":"60%",
 		"HW3":"90%",
 		"HW4":"Hasn't been sent",
-		"HW5":"Hasn't been sent"
+		"HW5":"Hasn't been sent",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463108",
@@ -293,7 +302,8 @@
 		"HW2":"100%",
 		"HW3":"90%",
 		"HW4":"Hasn't been sent",
-		"HW5":"Hasn't been sent"
+		"HW5":"Hasn't been sent",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463162",
@@ -337,7 +347,8 @@
 		"HW2":"Hasn't been sent",
 		"HW3":"100%",
 		"HW4":"80%",
-		"HW5":"80%"
+		"HW5":"80%",
+		"HW6":"Hasn't been sent"
 	},
 	{
 		"id":"99463181",
@@ -345,6 +356,7 @@
 		"HW2":"Hasn't been sent",
 		"HW3":"100%",
 		"HW4":"0%",
-		"HW5":"85.84%"
+		"HW5":"85.84%",
+		"HW6":"Hasn't been sent"
 	}
 ]
