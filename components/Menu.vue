@@ -31,7 +31,7 @@ export default {
 				{
 					'to':'/sessions/',
 					'icon':'calendar',
-					'text':'Discussion Sessions Calender'
+					'text':'Sessions Calender'
 				}
 			]
 		}

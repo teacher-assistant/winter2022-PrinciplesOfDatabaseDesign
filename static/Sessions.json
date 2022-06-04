@@ -70,5 +70,13 @@
 			"minute":"00"
 		},
 		"link":"https://s24.picofile.com/file/8450278734/8thSession2022_05_21.rar.html"
+	},
+	{
+		"topic":"Review some SQL questions",
+		"date":"2022-06-11",
+		"time":{
+			"hour":"16",
+			"minute":"00"
+		}
 	}
 ]
