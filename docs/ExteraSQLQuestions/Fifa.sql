@@ -1,6 +1,6 @@
-# Question : https://quera.org/problemset/17906/
+-- Question : https://quera.org/problemset/17906/
 
--- Database Creation
+-- Database Creation:
 CREATE TABLE Person(
     id VARCHAR(50) PRIMARY KEY,
     name VARCHAR(50) 
@@ -32,32 +32,32 @@ CREATE TABLE Team(
 
 -- Inserting some fake data:
 
---player:Liverpool F.C.
+-- player:Liverpool F.C.
 insert into Person(id, name) values (1, "Mohamed Salah");
 insert into Person(id, name) values (2, "Sadio Mané");
 insert into Person(id, name) values (3, "Luis Díaz");
 
---player:Real Madrid
+-- player:Real Madrid
 insert into Person(id, name) values (4, "Karim Benzema");
 insert into Person(id, name) values (5, "Antonio Rüdiger");
 insert into Person(id, name) values (6, "Marcelo Vieira");
 
---player:Man United
+-- player:Man United
 insert into Person(id, name) values (7, "Paul Pogba");
 insert into Person(id, name) values (8, "Mason Greenwood");
 insert into Person(id, name) values (9, "Harry Maguire");
 
---player:Chelsea
+-- player:Chelsea
 insert into Person(id, name) values (10, "Paul Pogba");
 insert into Person(id, name) values (11, "Mason Greenwood");
 insert into Person(id, name) values (12, "Harry Maguire");
 
---coach
+-- coach
 insert into Person(id, name) values (13, "Jürgen Klopp");
 insert into Person(id, name) values (14, "Carlo Ancelotti");
 insert into Person(id, name) values (15, "Erik ten Hag");
 
---refree
+-- refree
 insert into Person(id, name) values (16, "Pierluigi Collina");
 insert into Person(id, name) values (17, "Felix Brych");
 insert into Person(id, name) values (18, "Alireza Faghani");
@@ -87,7 +87,7 @@ insert into Player(id, team, age) values(7, "Man United", 29);
 insert into Player(id, team, age) values(8, "Man United", 20);
 insert into Player(id, team, age) values(9, "Man United", 29);
 
--- Q1
+-- Q1:
 INSERT INTO player(id, team, age)
     SELECT id, "Chelsea", 24
     FROM person
@@ -99,11 +99,11 @@ INSERT INTO player(id, team, age)
         SELECT id FROM refree
     );
 
--- Q2
+-- Q2:
 SELECT coach.id, person.name
 FROM coach INNER JOIN player ON coach.id=player.id INNER JOIN person ON coach.id=person.id
 WHERE coach.team <> player.team ;
 
---Q3
+-- Q3:
 ALTER TABLE Player
 ADD FOREIGN KEY (team) REFERENCES team(name) ON DELETE CASCADE;

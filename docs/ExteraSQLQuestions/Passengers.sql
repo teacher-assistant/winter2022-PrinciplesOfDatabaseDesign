@@ -1,6 +1,6 @@
-# Question : https://quera.org/problemset/17907/
+-- Question : https://quera.org/problemset/17907/
 
--- Database Creation
+-- Database Creation:
 CREATE TABLE Passenger(
     name VARCHAR(50) PRIMARY KEY,
     email VARCHAR(50) UNIQUE,
@@ -29,7 +29,7 @@ CREATE TABLE Travel(
     FOREIGN KEY (passenger_name) REFERENCES Passenger(name)
 );
 
--- Create some fake data :
+-- Create some fake data:
 INSERT INTO Stadium(name, address, capacity) values("The Allianz Arena", "Werner-Heisenberg-Allee 25, 80939 München, Germany", 75024);
 INSERT INTO Stadium(name, address, capacity) values("Old Trafford","Sir Matt Busby Way Home of Manchester United", 74140);
 INSERT INTO Stadium(name, address, capacity) values("Camp Nou", "C. d'Arístides Maillol, 12, 08028 Barcelona, Spain", 99354);

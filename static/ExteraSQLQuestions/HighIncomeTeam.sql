@@ -1,6 +1,6 @@
-# Question : https://quera.org/problemset/102260/
+-- Question : https://quera.org/problemset/102260/
 
--- Database Creation
+-- Database Creation:
 CREATE TABLE teams(
     id INT PRIMARY KEY,
     name VARCHAR(50)
@@ -25,11 +25,11 @@ insert into employees(id, name, salary, team_id) values (3, "Alireza", 80000, 2)
 insert into employees(id, name, salary, team_id) values (4, "Bahram", 60000, 2);
 insert into employees(id, name, salary, team_id) values (5, "Asghar", 90000, 1);
 
---Q1:
+-- Q1:
 SELECT MAX(salary) AS "salary"
 FROM employees;
 
---Q2:
+-- Q2:
 SELECT teams.`name` AS "team", employees.`name` AS "employee", employees.salary
 FROM employees INNER JOIN teams ON employees.team_id=teams.id INNER JOIN(
 	SELECT max(employees.salary) AS "max salary of team", teams.id

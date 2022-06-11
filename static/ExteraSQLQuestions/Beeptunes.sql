@@ -1,6 +1,6 @@
-# Question : https://quera.org/problemset/33031/
+-- Question : https://quera.org/problemset/33031/
 
--- Database Creation
+-- Database Creation:
 CREATE TABLE singer(
     name VARCHAR(50) PRIMARY KEY,
     email VARCHAR(50),
@@ -32,19 +32,21 @@ INSERT INTO song(id, name, singer, producer, album, total_sell) values(3, "S3", 
 INSERT INTO song(id, name, singer, producer, album, total_sell) values(4, "S4", "Eminem", "dr.dre", "A2", 9000);
 INSERT INTO song(id, name, singer, producer, album, total_sell) values(5, "S5", "Eminem", "Hit-Boy", "A2", 3000);
 INSERT INTO song(id, name, singer, producer, album, total_sell) values(6, "S6", "Eminem", "Hit-Boy", "A2", 3000);
---Q1:
+
+-- Q1:
 SELECT singer.`name`
 FROM singer
 WHERE singer.balance=0;
 
---Q2:
+-- Q2:
 CREATE TABLE producer(
    name VARCHAR(20) PRIMARY KEY
 );
 INSERT INTO producer(name)
    SELECT DISTINCT(producer)
    FROM song;
---Q3:
+
+-- Q3:
 SELECT singer.`name`, sum(song.total_sell)
 FROM singer INNER JOIN song ON singer.`name`=song.singer
 WHERE song.producer="dr.dre"
