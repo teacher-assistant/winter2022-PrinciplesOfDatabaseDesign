@@ -1,7 +1,7 @@
 <template>
 	<div class="container d-grid gap-2">
 	    <div></div>
-		<MainCard title="Discussion Sessions Calender" />
+		<MainCard title="Sessions Calender" />
     <Calendar />
 	</div>
 </template>

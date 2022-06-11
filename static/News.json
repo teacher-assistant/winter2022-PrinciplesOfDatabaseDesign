@@ -1,5 +1,9 @@
 [
 	{
+		"body":"The Questions that were discussed in the class could be found in this <a href='https://github.com/teacher-assistant/winter2022-PrinciplesOfDatabaseDesign/tree/main/static/ExteraSQLQuestions'>folder</a>.",
+		"date":"2022-06-11"
+	},
+	{
 		"body":"There will be a session for reviewing SQL questions to prepare students for the final exam. You can obtain the time of the session in the 'Sessions' Tab.",
 		"date":"2022-06-04"
 	},
