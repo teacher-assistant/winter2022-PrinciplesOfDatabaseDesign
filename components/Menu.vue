@@ -4,14 +4,21 @@
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item" v-for="section in sections">
 	        <NuxtLink class="nav-link d-flex align-items-center gap-1" :to="section.to">
+	        	<img :src="section.image" class="ico icon" />
 	        	{{ section.text }}
-	        	<box-icon type='solid' :name="section.icon" color='#ffffff'></box-icon>
 	        </NuxtLink >
 	      </li>
 	    </ul>
 	  </div>
 	</nav>
 </template>
+
+<style>
+.icon{
+	width: 50px;
+	height: 50px;
+}
+</style>
 
 <script>
 export default {
@@ -21,17 +28,20 @@ export default {
 				{
 					'to':'/',
 					'icon':'book-reader',
-					'text':'Home page'
+					'text':'Home page',
+					'image':'https://img.icons8.com/bubbles/1000/home-page.png'
 				},
 				{
 					'to':'/Homeworks/',
 					'icon':'edit-alt',
-					'text':'HomeWorks'
+					'text':'HomeWorks',
+					'image':'https://img.icons8.com/bubbles/1000/task.png'
 				},
 				{
 					'to':'/sessions/',
 					'icon':'calendar',
-					'text':'Sessions Calender'
+					'text':'Sessions Calender',
+					'image':'https://img.icons8.com/bubbles/1000/calendar--v2.png'
 				}
 			]
 		}

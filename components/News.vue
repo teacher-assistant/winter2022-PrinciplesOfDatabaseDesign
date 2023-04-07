@@ -2,6 +2,7 @@
 	<div>
 		<div class="alert alert-dark">
 			<h3 class="alert-head">
+				<img src="https://img.icons8.com/bubbles/1000/news.png" class="ico icon" style="width: 70px; height: 70px;" />
 				News
 			</h3>
 			<div :class="getClass(index)" v-for="(news, index) in news_list">
@@ -15,6 +16,7 @@
 		</div>
 	</div>
 </template>
+
 <script>
 export default {
 	data(){
