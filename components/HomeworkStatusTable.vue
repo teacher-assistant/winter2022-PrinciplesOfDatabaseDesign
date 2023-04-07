@@ -15,7 +15,7 @@
 								HW1
 							</span>
 					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW1.pdf">
-					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+					   			<img src="https://img.icons8.com/bubbles/1000/pdf-2.png" class="ico icon-2">
 				   			</a>
 			      		</button>
 			  		</th>
@@ -25,7 +25,7 @@
 								HW2
 							</span>
 					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW2.pdf">
-					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+					   			<img src="https://img.icons8.com/bubbles/1000/pdf-2.png" class="ico icon-2">
 				   			</a>
 			      		</button>
 			  		</th>
@@ -35,7 +35,7 @@
 								HW3
 							</span>
 					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW3.pdf">
-					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+					   			<img src="https://img.icons8.com/bubbles/1000/pdf-2.png" class="ico icon-2">
 				   			</a>
 			      		</button>
 			  		</th>
@@ -45,7 +45,7 @@
 								HW4(SQL)
 							</span>
 					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW4(SQL).pdf">
-					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+					   			<img src="https://img.icons8.com/bubbles/1000/pdf-2.png" class="ico icon-2">
 				   			</a>
 			      		</button>
 			  		</th>	
@@ -55,7 +55,7 @@
 								HW5(SQL)
 							</span>
 					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW5(SQL).pdf">
-					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+					   			<img src="https://img.icons8.com/bubbles/1000/pdf-2.png" class="ico icon-2">
 				   			</a>
 			      		</button>
 			  		</th>
@@ -65,7 +65,7 @@
 								HW6
 							</span>
 					      	<a href="https://teacher-assistant.github.io/winter2022-PrinciplesOfDatabaseDesign/HomeWorks/HW6.pdf">
-					   			<box-icon type='solid' name="file-pdf" color="#F40F02"></box-icon>
+					   			<img src="https://img.icons8.com/bubbles/1000/pdf-2.png" class="ico icon-2">
 				   			</a>
 			      		</button>
 			  		</th>
@@ -87,7 +87,12 @@
     	</div>
     </div>
 </template>
-
+<style>
+.icon-2{
+	width: 50px;
+	height: 50px;
+}
+</style>
 <script>
 export default {
 	data(){

@@ -4,7 +4,7 @@
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item" v-for="section in sections">
 	        <NuxtLink class="nav-link d-flex align-items-center gap-1" :to="section.to">
-	        	<img :src="section.image" class="ico icon" />
+	        	<img :src="section.image" class="ico icon-4" />
 	        	{{ section.text }}
 	        </NuxtLink >
 	      </li>
@@ -14,7 +14,7 @@
 </template>
 
 <style>
-.icon{
+.icon-4{
 	width: 50px;
 	height: 50px;
 }

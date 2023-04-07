@@ -3,16 +3,16 @@
 		<div class="alert alert-dark">
 			<div v-if="sessions.future.length">
 				<h3 class="alert-head">
-					<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1000/external-future-morning-flaticons-lineal-color-flat-icons.png" class="ico icon" />
+					<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1000/external-future-morning-flaticons-lineal-color-flat-icons.png" class="ic icon-4" />
 					Future Sessions
 				</h3>
 				<div class="alert alert-warning d-flex justify-content-between">
 					<h5 class="alert-link">
-						<img src="https://img.icons8.com/bubbles/1000/topic.png" class="ico icon" />
+						<img src="https://img.icons8.com/bubbles/1000/topic.png" class="ic icon-3" />
 						Topic
 					</h5>
 					<h5 class="alert-link">
-						<img src="https://img.icons8.com/bubbles/1000/overtime.png" class="ico icon" />
+						<img src="https://img.icons8.com/bubbles/1000/overtime.png" class="ic icon-3" />
 						Date | Time
 					</h5>
 				</div>
@@ -29,16 +29,16 @@
 			</div>
 			<div v-if="sessions.passed.length">
 				<h3 class="alert-head">
-					<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1000/external-past-morning-flaticons-lineal-color-flat-icons.png" class="ico icon" />
+					<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1000/external-past-morning-flaticons-lineal-color-flat-icons.png" class="ic icon-4" />
 					Passed Sessions
 				</h3>
 				<div class="alert alert-warning d-flex justify-content-between">
 					<h5 class="alert-link">
-						<img src="https://img.icons8.com/bubbles/1000/topic.png" class="ico icon" />
+						<img src="https://img.icons8.com/bubbles/1000/topic.png" class="ic icon-3" />
 						Topic
 					</h5>
 					<h5 class="alert-link">
-						<img src="https://img.icons8.com/bubbles/1000/overtime.png" class="ico icon" />
+						<img src="https://img.icons8.com/bubbles/1000/overtime.png" class="ic icon-3" />
 						Date | Time
 					</h5>
 				</div>
@@ -66,7 +66,7 @@
 </template>
 
 <style>
-.icon{
+.icon-3{
 	width: 60px;
 	height: 60px;
 }
