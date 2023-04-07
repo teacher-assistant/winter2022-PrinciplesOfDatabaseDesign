@@ -3,7 +3,7 @@
 		<div class="alert alert-dark">
 			<div v-if="sessions.future.length">
 				<h3 class="alert-head">
-					<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1000/external-future-morning-flaticons-lineal-color-flat-icons.png" class="ic icon-4" />
+					<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1000/external-future-morning-flaticons-lineal-color-flat-icons.png" class="ic icon" />
 					Future Sessions
 				</h3>
 				<div class="alert alert-warning d-flex justify-content-between">
@@ -29,7 +29,7 @@
 			</div>
 			<div v-if="sessions.passed.length">
 				<h3 class="alert-head">
-					<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1000/external-past-morning-flaticons-lineal-color-flat-icons.png" class="ic icon-4" />
+					<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/1000/external-past-morning-flaticons-lineal-color-flat-icons.png" class="ic icon" />
 					Passed Sessions
 				</h3>
 				<div class="alert alert-warning d-flex justify-content-between">
